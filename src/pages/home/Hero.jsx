@@ -10,8 +10,8 @@ import {
 } from "@material-tailwind/react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import ComboBox from "./mui/manuefacturerDropDown";
-import CustomDivider from "./CusotomDivider";
+import ComboBox from "../../components/mui/manuefacturerDropDown";
+import CustomDivider from "../../components/CusotomDivider";
 const Hero = () => {
   const backgroundImageStyle = {
     backgroundImage: "url('/assets/Background.png')",
